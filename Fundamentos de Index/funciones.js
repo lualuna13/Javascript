@@ -39,7 +39,7 @@ function saludopersonalizado(nombre){
   console.log(`Hola querido ${nombre} tienes traumas :D`)
 }
 
-/* saludopersonalizado("Youya")
+/* saludopersonalizado("Touya")
 saludopersonalizado("Shoto") */
 
 function sumar(a, b){
