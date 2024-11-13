@@ -32,25 +32,25 @@
 */
 /* Definir un objeto */
 
-/* let personaje = {
+ let personaje = {
   nombre : "Katsuki",
   edad : 25,
   residencia : "Japón",
   poderes : true,
   habilidadesSuperhumanas : ["Explosión", "AP Shot", "Howitzer Impact"]
 }
- */
+ 
 /* Accedemos al valor de las propiedades del objeto */
 
-//console.log(personaje.nombre);
-// console.log(personaje["Habilidades superhumanas"][1] );
-//console.log(personaje.habilidadesSuperhumanas[0]);
+console.log(personaje.nombre);
+console.log(personaje["Habilidades superhumanas"][1] );
+console.log(personaje.habilidadesSuperhumanas[0]);
 
-/* Agregar y borrar propiedades de objetos */
+ /*Agregar y borrar propiedades de objetos */
 
-//personaje.enemigos = ["Shigaraki", "AFO"];
+personaje.enemigos = ["Shigaraki", "AFO"];
 
-//delete personaje.poderes;
+delete personaje.poderes;
 
 /* 
   Métodos
